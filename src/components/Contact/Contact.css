@@ -1,0 +1,128 @@
+.contact {
+    margin-top: 8rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  padding-left: 8rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.contact-content {
+  max-width: 800px;
+}
+.contact-info h3 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.contact-info p {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.contact-details {
+  margin-bottom: 2rem;
+}
+.contact-item {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.contact-item span {
+  font-weight: 600;
+  color: #ffffff;
+  min-width: 60px;
+  display: inline-block;
+}
+.contact-item a, .contact-item p {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .contact-item {
+    flex-direction: row; /* Changed from column to row */
+    align-items: center; /* Keep items centered */
+    gap: 1rem;
+  }
+}
+.contact-item1 {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.contact-item1 span {
+  font-weight: 600;
+  color: #ffffff;
+}
+.contact-item1 a, .contact-item1 p {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.contact-item1 a:hover {
+  color: #cccccc;
+}
+
+
+.social-links {
+  display: flex;
+  gap: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333333;
+}
+.social-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+  align-items: center;
+
+}
+.social-links a:hover {
+  color: #cccccc;
+}
+@media (max-width: 1200px) {
+  .contact {
+    padding: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .contact {
+    padding: 1.5rem;
+  }
+
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
