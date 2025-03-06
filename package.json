@@ -27,11 +27,3 @@
     "vite": "^6.2.0"
   }
 }
-{
-  "name": "phongsathon-portfolio",
-  "homepage": "https://ppstqx.github.io/Phongsathon-Portfolio",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  }
-}
